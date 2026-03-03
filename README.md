@@ -56,7 +56,18 @@ All 8 plugins install automatically. You get both commands (`/discover`, `/strat
 ### Claude Code (CLI)
 
 ```bash
-claude plugin add --marketplace phuryn/pm-skills
+# Step 1: Add the marketplace
+claude plugin marketplace add phuryn/pm-skills
+
+# Step 2: Install individual plugins
+claude plugin install pm-toolkit@pm-skills
+claude plugin install pm-product-strategy@pm-skills
+claude plugin install pm-product-discovery@pm-skills 
+claude plugin install pm-market-research@pm-skills 
+claude plugin install pm-data-analytics@pm-skills
+claude plugin install pm-marketing-growth@pm-skills
+claude plugin install pm-go-to-market@pm-skills
+claude plugin install pm-execution@pm-skills
 ```
 
 ### Other AI assistants (skills only)
